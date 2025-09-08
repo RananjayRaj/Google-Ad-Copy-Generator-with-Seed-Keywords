@@ -1,0 +1,862 @@
+{
+  "name": "Google Ads Ad Copy Generator from Seed Keywords Advanced",
+  "nodes": [
+    {
+      "parameters": {
+        "operation": "appendOrUpdate",
+        "documentId": {
+          "__rl": true,
+          "value": "18h3IHqnSvT4NzFrO226zgzBB32DHs64hVNNu2stmfdk",
+          "mode": "id"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": 1914351443,
+          "mode": "list",
+          "cachedResultName": "Copy of Sheet2",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/18h3IHqnSvT4NzFrO226zgzBB32DHs64hVNNu2stmfdk/edit#gid=1914351443"
+        },
+        "columns": {
+          "mappingMode": "autoMapInputData",
+          "value": {},
+          "matchingColumns": [
+            "keyword"
+          ],
+          "schema": [
+            {
+              "id": "keyword",
+              "displayName": "keyword",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "volume",
+              "displayName": "volume",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "intent",
+              "displayName": "intent",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "headline1",
+              "displayName": "headline1",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "headline2",
+              "displayName": "headline2",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "headline3",
+              "displayName": "headline3",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "headline4",
+              "displayName": "headline4",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "headline5",
+              "displayName": "headline5",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "headline6",
+              "displayName": "headline6",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "headline7",
+              "displayName": "headline7",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "headline8",
+              "displayName": "headline8",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "headline9",
+              "displayName": "headline9",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "headline10",
+              "displayName": "headline10",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "headline11",
+              "displayName": "headline11",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "headline12",
+              "displayName": "headline12",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "headline13",
+              "displayName": "headline13",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "headline14",
+              "displayName": "headline14",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "headline15",
+              "displayName": "headline15",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "description1",
+              "displayName": "description1",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "description2",
+              "displayName": "description2",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "description3",
+              "displayName": "description3",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "description4",
+              "displayName": "description4",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "description5",
+              "displayName": "description5",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "seedKeyword",
+              "displayName": "seedKeyword",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "cpc",
+              "displayName": "cpc",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "matchType",
+              "displayName": "matchType",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "priority",
+              "displayName": "priority",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "semanticGroup",
+              "displayName": "semanticGroup",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "competition",
+              "displayName": "competition",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "generatedAt",
+              "displayName": "generatedAt",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "sitelink1Headline",
+              "displayName": "sitelink1Headline",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "sitelink1Description",
+              "displayName": "sitelink1Description",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "sitelink2Headline",
+              "displayName": "sitelink2Headline",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "sitelink2Description",
+              "displayName": "sitelink2Description",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "sitelink3Headline",
+              "displayName": "sitelink3Headline",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "sitelink3Description",
+              "displayName": "sitelink3Description",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "sitelink4Headline",
+              "displayName": "sitelink4Headline",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "sitelink4Description",
+              "displayName": "sitelink4Description",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "callout1",
+              "displayName": "callout1",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "callout2",
+              "displayName": "callout2",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "callout3",
+              "displayName": "callout3",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "callout4",
+              "displayName": "callout4",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "callout5",
+              "displayName": "callout5",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "callout6",
+              "displayName": "callout6",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "structuredSnippet1Header",
+              "displayName": "structuredSnippet1Header",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "structuredSnippet1Values",
+              "displayName": "structuredSnippet1Values",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "structuredSnippet2Header",
+              "displayName": "structuredSnippet2Header",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "structuredSnippet2Values",
+              "displayName": "structuredSnippet2Values",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "structuredSnippet3Header",
+              "displayName": "structuredSnippet3Header",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "structuredSnippet3Values",
+              "displayName": "structuredSnippet3Values",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.6,
+      "position": [
+        1840,
+        384
+      ],
+      "id": "266b4091-b9a2-4c8b-8d74-ebc7b9c1d22e",
+      "name": "Google Sheets",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "fgDv40fNryDv9sN0",
+          "name": "Google Sheets account 2"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "formTitle": "Google Ads Keyword Generator",
+        "formDescription": "Enter your seed keywords to generate comprehensive Google Ads campaigns with ad copy",
+        "formFields": {
+          "values": [
+            {
+              "fieldLabel": "seedKeywords",
+              "fieldType": "textarea",
+              "placeholder": "Enter keywords separated by commas. Example: artificial intelligence, machine learning, AI tools, automation software",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "industry",
+              "fieldType": "dropdown",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "Technology/Software"
+                  },
+                  {
+                    "option": "E-commerce/Retail"
+                  },
+                  {
+                    "option": "Healthcare"
+                  },
+                  {
+                    "option": "Finance/Insurance"
+                  },
+                  {
+                    "option": "Education"
+                  },
+                  {
+                    "option": "Marketing/Advertising"
+                  },
+                  {
+                    "option": "Real Estate"
+                  },
+                  {
+                    "option": "Other"
+                  }
+                ]
+              },
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "location",
+              "fieldType": "dropdown",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "United States"
+                  },
+                  {
+                    "option": "Canada"
+                  },
+                  {
+                    "option": "United Kingdom"
+                  },
+                  {
+                    "option": "Australia"
+                  },
+                  {
+                    "option": "Global"
+                  },
+                  {
+                    "option": "Other"
+                  }
+                ]
+              },
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "budget",
+              "fieldType": "dropdown",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "Low ($500-2000/month)"
+                  },
+                  {
+                    "option": "Medium ($2000-10000/month)"
+                  },
+                  {
+                    "option": "High ($10000+/month)"
+                  }
+                ]
+              }
+            },
+            {
+              "fieldLabel": "campaignGoal",
+              "fieldType": "dropdown",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "Lead Generation"
+                  },
+                  {
+                    "option": "Sales/Conversions"
+                  },
+                  {
+                    "option": "Website Traffic"
+                  },
+                  {
+                    "option": "Brand Awareness"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.formTrigger",
+      "typeVersion": 2.3,
+      "position": [
+        1232,
+        -128
+      ],
+      "id": "92528453-b831-4082-b210-40e19b6baa6f",
+      "name": "Google Ads Keyword Generator",
+      "webhookId": "cfdfcd66-76c3-4bcf-8610-6163fc1e0249"
+    },
+    {
+      "parameters": {
+        "jsCode": "// Process form input and prepare for keyword research\nconsole.log('Processing form data...');\n\nconst formData = $input.first().json;\nconsole.log('Form data received:', JSON.stringify(formData, null, 2));\n\n// Parse seed keywords from textarea\nconst seedKeywordsRaw = formData.seedKeywords || '';\nconst seedKeywords = seedKeywordsRaw\n  .split(',')\n  .map(keyword => keyword.trim())\n  .filter(keyword => keyword.length > 0);\n\nif (seedKeywords.length === 0) {\n  throw new Error('No seed keywords provided');\n}\n\n// Map form values to workflow format\nconst businessContext = {\n  industry: formData.industry || 'Technology/Software',\n  location: formData.location || 'United States', \n  budget: formData.budget || 'Medium ($2000-10000/month)',\n  campaignGoal: formData.campaignGoal || 'Lead Generation'\n};\n\nconsole.log('Processed seed keywords:', seedKeywords);\nconsole.log('Business context:', businessContext);\n\nreturn [{\n  json: {\n    seedKeywords: seedKeywords,\n    businessContext: businessContext,\n    totalKeywords: seedKeywords.length,\n    timestamp: new Date().toISOString()\n  }\n}];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1440,
+        -128
+      ],
+      "id": "1e6917ab-b83d-41ad-a275-ea8d5f6738ce",
+      "name": "Form Data Processor"
+    },
+    {
+      "parameters": {
+        "modelId": {
+          "__rl": true,
+          "value": "gpt-4.1-mini",
+          "mode": "list",
+          "cachedResultName": "GPT-4.1-MINI"
+        },
+        "messages": {
+          "values": [
+            {
+              "content": "=You are an expert Google Ads copywriter. Create comprehensive ad copy with extensions for this keyword data.\n\nKEYWORD DATA:\n- Keyword: {{ $json.keyword }}\n- Search Volume: {{ $json.volume }}\n- Competition: {{ $json.competition }}\n- Intent: {{ $json.intent }}\n- CPC: ${{ $json.estimatedCpc }}\n- Seed Keyword: {{ $json.seedKeyword }}\n- Priority: {{ $json.priority }}\n- Match Type: {{ $json.matchType }}\n- Semantic Group: {{ $json.semanticGroup }}\n\nBUSINESS CONTEXT:\n- Industry: Technology/Software (adapt based on actual context)\n- Goal: Lead Generation/Sales\n\nMANDATORY REQUIREMENTS:\n- Generate EXACTLY 15 headlines (max 30 characters each)\n- Generate EXACTLY 5 descriptions (max 90 characters each)\n- Generate 4 sitelinks with headlines (25 chars) and descriptions (35 chars)\n- Generate 6 callouts (25 characters each)\n- Generate 3 structured snippets with headers and values\n- Include the keyword naturally throughout\n- Match the search intent and semantic group\n\nGOOGLE ADS EXTENSIONS SPECIFICATIONS:\n\n**Sitelinks**: Additional links to specific pages\n- Headlines: 25 characters max\n- Descriptions: 35 characters max\n- Should be relevant to the keyword and intent\n\n**Callouts**: Short phrases highlighting benefits\n- 25 characters max each\n- No punctuation at the end\n- Focus on unique selling points\n\n**Structured Snippets**: Organized lists of offerings\n- Headers: predefined categories (Services, Brands, Models, Types, etc.)\n- Values: specific items relevant to your business\n\nReturn ONLY this JSON format:\n{\n  \"headlines\": [\n    \"Headline 1 with keyword\",\n    \"Headline 2 benefit focus\",\n    \"Headline 3 action oriented\",\n    \"Headline 4 question based\",\n    \"Headline 5 urgency driven\",\n    \"Headline 6 direct keyword\",\n    \"Headline 7 benefit focused\", \n    \"Headline 8 action oriented\",\n    \"Headline 9 curiosity based\",\n    \"Headline 10 urgency driven\",\n    \"Headline 11 direct keyword\",\n    \"Headline 12 benefit focused\",\n    \"Headline 13 action oriented\", \n    \"Headline 14 question based\",\n    \"Headline 15 final urgency\"\n  ],\n  \"descriptions\": [\n    \"Description 1 with keyword and clear CTA under 90 characters\",\n    \"Description 2 emphasizing benefits and urgency under 90 characters\",\n    \"Description 3 focusing on value proposition under 90 characters\", \n    \"Description 4 highlighting unique features under 90 characters\",\n    \"Description 5 final compelling CTA under 90 characters\"\n  ],\n  \"sitelinks\": [\n    {\n      \"headline\": \"Free Trial\",\n      \"description\": \"Start your 14-day free trial\"\n    },\n    {\n      \"headline\": \"Pricing Plans\", \n      \"description\": \"View affordable pricing options\"\n    },\n    {\n      \"headline\": \"Demo Request\",\n      \"description\": \"Schedule a personalized demo\"\n    },\n    {\n      \"headline\": \"Case Studies\",\n      \"description\": \"See real customer success\"\n    }\n  ],\n  \"callouts\": [\n    \"Free Trial Available\",\n    \"24/7 Customer Support\", \n    \"No Setup Fees\",\n    \"Money Back Guarantee\",\n    \"Industry Leading\",\n    \"Trusted by 10000+ Users\"\n  ],\n  \"structuredSnippets\": [\n    {\n      \"header\": \"Services\",\n      \"values\": \"Implementation, Training, Support, Consulting\"\n    },\n    {\n      \"header\": \"Features\", \n      \"values\": \"Analytics, Automation, Integration, Security\"\n    },\n    {\n      \"header\": \"Industries\",\n      \"values\": \"Healthcare, Finance, Retail, Manufacturing\"\n    }\n  ]\n}\n\nCRITICAL: Must return exactly 15 headlines, 5 descriptions, 4 sitelinks, 6 callouts, and 3 structured snippets. No exceptions."
+            }
+          ]
+        },
+        "options": {
+          "maxTokens": 2000
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.openAi",
+      "typeVersion": 1.8,
+      "position": [
+        1280,
+        384
+      ],
+      "id": "16ba2d92-e033-4643-ad14-d0701790209c",
+      "name": "Ad Copy Generation",
+      "credentials": {
+        "openAiApi": {
+          "id": "VghV2OUNdwcjGUvn",
+          "name": "OpenAi account 2"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "console.log('=== FINAL PROCESSING WITH EXTENSIONS ===');\n\nconst finalItems = [];\nconst allResults = $input.all();\n\nconsole.log('Total items received:', allResults.length);\n\nfor (let i = 0; i < allResults.length; i++) {\n  const item = allResults[i];\n  \n  try {\n    console.log(`\\nProcessing item ${i + 1}...`);\n    console.log('Item keys:', Object.keys(item.json));\n    \n    // Step 1: Extract the ad copy from OpenAI response\n    let adCopyContent = '';\n    \n    if (item.json.message && item.json.message.content) {\n      adCopyContent = item.json.message.content;\n    } else if (item.json.content) {\n      adCopyContent = item.json.content;\n    } else if (item.json.choices && item.json.choices[0]) {\n      adCopyContent = item.json.choices[0].message.content;\n    } else {\n      console.error('Available keys:', Object.keys(item.json));\n      throw new Error('No OpenAI response found');\n    }\n    \n    console.log('✅ Found ad copy content');\n    \n    // Step 2: Clean and parse the ad copy JSON\n    let cleanContent = adCopyContent.trim();\n    cleanContent = cleanContent.replace(/```json/g, '').replace(/```/g, '').trim();\n    \n    const adCopy = JSON.parse(cleanContent);\n    console.log('✅ Parsed ad copy successfully');\n    \n    // Step 3: Extract extensions from adCopy\n    const sitelinks = adCopy.sitelinks || [];\n    const callouts = adCopy.callouts || [];\n    const structuredSnippets = adCopy.structuredSnippets || [];\n    \n    console.log('Extensions found:');\n    console.log('- Sitelinks:', sitelinks.length);\n    console.log('- Callouts:', callouts.length);\n    console.log('- Structured Snippets:', structuredSnippets.length);\n    \n    // Step 4: Get keyword data from the previous nodes\n    let keywordInfo = {};\n    \n    try {\n      // Get the data from the \"Fixed Data Preparation Node\" at the same index\n      const dataPreparationNodes = $('Fixed Data Preparation Node').all();\n      if (dataPreparationNodes && dataPreparationNodes[i] && dataPreparationNodes[i].json.keywordData) {\n        keywordInfo = dataPreparationNodes[i].json.keywordData;\n        console.log('✅ Retrieved keyword data from Data Preparation Node:', keywordInfo.keyword);\n      } else {\n        console.log('⚠️ Could not get from Data Preparation Node, trying Debug Node...');\n        \n        // Fallback: try Debug Node\n        const debugNodes = $('Debug Node').all();\n        if (debugNodes && debugNodes[i] && debugNodes[i].json.keyword) {\n          keywordInfo = {\n            keyword: debugNodes[i].json.keyword,\n            volume: debugNodes[i].json.volume,\n            intent: debugNodes[i].json.intent,\n            estimatedCpc: debugNodes[i].json.estimatedCpc,\n            seedKeyword: debugNodes[i].json.seedKeyword,\n            competition: debugNodes[i].json.competition,\n            matchType: debugNodes[i].json.matchType,\n            priority: debugNodes[i].json.priority,\n            semanticGroup: debugNodes[i].json.semanticGroup\n          };\n          console.log('✅ Retrieved keyword data from Debug Node:', keywordInfo.keyword);\n        } else {\n          console.log('⚠️ Could not get from Debug Node, trying Robust Keyword Processing Node...');\n          \n          // Last resort: try Robust Keyword Processing Node\n          const keywordNodes = $('Robust Keyword Processing Node').all();\n          if (keywordNodes && keywordNodes[i] && keywordNodes[i].json.keyword) {\n            keywordInfo = {\n              keyword: keywordNodes[i].json.keyword,\n              volume: keywordNodes[i].json.volume,\n              intent: keywordNodes[i].json.intent,\n              estimatedCpc: keywordNodes[i].json.estimatedCpc,\n              seedKeyword: keywordNodes[i].json.seedKeyword,\n              competition: keywordNodes[i].json.competition,\n              matchType: keywordNodes[i].json.matchType || 'Phrase',\n              priority: keywordNodes[i].json.priority || 'Medium',\n              semanticGroup: keywordNodes[i].json.semanticGroup || 'general'\n            };\n            console.log('✅ Retrieved keyword data from Keyword Processing Node:', keywordInfo.keyword);\n          } else {\n            console.error('⚠️ Could not retrieve keyword data from any previous node');\n            keywordInfo = {\n              keyword: 'Data Retrieval Error',\n              volume: 'Error',\n              intent: 'Error',\n              estimatedCpc: 'Error',\n              seedKeyword: 'Error',\n              competition: 'Error',\n              matchType: 'Error',\n              priority: 'Error',\n              semanticGroup: 'Error'\n            };\n          }\n        }\n      }\n    } catch (retrievalError) {\n      console.error('⚠️ Error retrieving keyword data:', retrievalError.message);\n      keywordInfo = {\n        keyword: 'Retrieval Error',\n        volume: 'Error',\n        intent: 'Error',\n        estimatedCpc: 'Error',\n        seedKeyword: 'Error',\n        competition: 'Error',\n        matchType: 'Error',\n        priority: 'Error',\n        semanticGroup: 'Error'\n      };\n    }\n    \n    console.log('Final keyword info to use:', JSON.stringify(keywordInfo, null, 2));\n    \n    // Step 5: Validate ad copy\n    if (!adCopy.headlines || !Array.isArray(adCopy.headlines)) {\n      throw new Error('Invalid ad copy: missing headlines');\n    }\n    if (!adCopy.descriptions || !Array.isArray(adCopy.descriptions)) {\n      throw new Error('Invalid ad copy: missing descriptions');\n    }\n    \n    // Step 6: Create final result with ALL required fields including extensions\n    finalItems.push({\n      json: {\n        keyword: keywordInfo.keyword || 'Unknown',\n        volume: keywordInfo.volume || keywordInfo.searchVolume || 'Unknown',\n        intent: keywordInfo.intent || 'Unknown',\n        // Add the missing new attributes:\n        matchType: keywordInfo.matchType || 'Phrase',\n        priority: keywordInfo.priority || 'Medium', \n        semanticGroup: keywordInfo.semanticGroup || 'general',\n        competition: keywordInfo.competition || 'Medium',\n        // Headlines (expand to 15)\n        headline1: adCopy.headlines[0] || 'Missing Headline 1',\n        headline2: adCopy.headlines[1] || 'Missing Headline 2',\n        headline3: adCopy.headlines[2] || 'Missing Headline 3',\n        headline4: adCopy.headlines[3] || 'Missing Headline 4',\n        headline5: adCopy.headlines[4] || 'Missing Headline 5',\n        headline6: adCopy.headlines[5] || 'Missing Headline 6',\n        headline7: adCopy.headlines[6] || 'Missing Headline 7',\n        headline8: adCopy.headlines[7] || 'Missing Headline 8',\n        headline9: adCopy.headlines[8] || 'Missing Headline 9',\n        headline10: adCopy.headlines[9] || 'Missing Headline 10',\n        headline11: adCopy.headlines[10] || 'Missing Headline 11',\n        headline12: adCopy.headlines[11] || 'Missing Headline 12',\n        headline13: adCopy.headlines[12] || 'Missing Headline 13',\n        headline14: adCopy.headlines[13] || 'Missing Headline 14',\n        headline15: adCopy.headlines[14] || 'Missing Headline 15',\n        // Descriptions (expand to 5)\n        description1: adCopy.descriptions[0] || 'Missing Description 1',\n        description2: adCopy.descriptions[1] || 'Missing Description 2', \n        description3: adCopy.descriptions[2] || 'Missing Description 3',\n        description4: adCopy.descriptions[3] || 'Missing Description 4',\n        description5: adCopy.descriptions[4] || 'Missing Description 5',\n        // Sitelinks\n        sitelink1Headline: sitelinks[0]?.headline || 'Free Trial',\n        sitelink1Description: sitelinks[0]?.description || 'Start free trial today',\n        sitelink2Headline: sitelinks[1]?.headline || 'Pricing',\n        sitelink2Description: sitelinks[1]?.description || 'View pricing plans',\n        sitelink3Headline: sitelinks[2]?.headline || 'Demo',\n        sitelink3Description: sitelinks[2]?.description || 'Schedule live demo',\n        sitelink4Headline: sitelinks[3]?.headline || 'Support',\n        sitelink4Description: sitelinks[3]?.description || 'Get expert help',\n        // Callouts\n        callout1: callouts[0] || 'Free Trial Available',\n        callout2: callouts[1] || '24/7 Support',\n        callout3: callouts[2] || 'No Setup Fees',\n        callout4: callouts[3] || 'Money Back Guarantee',\n        callout5: callouts[4] || 'Industry Leading',\n        callout6: callouts[5] || 'Trusted Worldwide',\n        // Structured Snippets\n        structuredSnippet1Header: structuredSnippets[0]?.header || 'Services',\n        structuredSnippet1Values: structuredSnippets[0]?.values || 'Implementation, Training, Support',\n        structuredSnippet2Header: structuredSnippets[1]?.header || 'Features',\n        structuredSnippet2Values: structuredSnippets[1]?.values || 'Analytics, Automation, Integration',\n        structuredSnippet3Header: structuredSnippets[2]?.header || 'Industries',\n        structuredSnippet3Values: structuredSnippets[2]?.values || 'Healthcare, Finance, Retail',\n        // Other fields\n        seedKeyword: keywordInfo.seedKeyword || 'Unknown',\n        cpc: keywordInfo.estimatedCpc || keywordInfo.cpc || 'Unknown',\n        // Add timestamp\n        generatedAt: new Date().toISOString()\n      }\n    });\n    \n    console.log(`✅ Created final item for: ${keywordInfo.keyword}`);\n    \n  } catch (error) {\n    console.error(`⚠️ Error processing item ${i + 1}:`, error.message);\n    \n    finalItems.push({\n      json: {\n        keyword: 'Processing Error',\n        volume: 'Error',\n        intent: 'Error',\n        matchType: 'Error',\n        priority: 'Error',\n        semanticGroup: 'Error',\n        competition: 'Error',\n        headline1: 'Error in Processing',\n        headline2: 'Check Logs',\n        headline3: 'Fix Workflow',\n        headline4: 'Missing Headline 4',\n        headline5: 'Missing Headline 5',\n        headline6: 'Missing Headline 6',\n        headline7: 'Missing Headline 7',\n        headline8: 'Missing Headline 8',\n        headline9: 'Missing Headline 9',\n        headline10: 'Missing Headline 10',\n        headline11: 'Missing Headline 11',\n        headline12: 'Missing Headline 12',\n        headline13: 'Missing Headline 13',\n        headline14: 'Missing Headline 14',\n        headline15: 'Missing Headline 15',\n        description1: error.message.substring(0, 90),\n        description2: 'Check n8n logs for details',\n        description3: 'Missing Description 3',\n        description4: 'Missing Description 4',\n        description5: 'Missing Description 5',\n        // Error fallback for extensions\n        sitelink1Headline: 'Error',\n        sitelink1Description: 'Processing Error',\n        sitelink2Headline: 'Error',\n        sitelink2Description: 'Processing Error',\n        sitelink3Headline: 'Error',\n        sitelink3Description: 'Processing Error',\n        sitelink4Headline: 'Error',\n        sitelink4Description: 'Processing Error',\n        callout1: 'Processing Error',\n        callout2: 'Check Logs',\n        callout3: 'Fix Workflow',\n        callout4: 'Error State',\n        callout5: 'Debug Required',\n        callout6: 'Contact Support',\n        structuredSnippet1Header: 'Error',\n        structuredSnippet1Values: 'Processing Error',\n        structuredSnippet2Header: 'Debug',\n        structuredSnippet2Values: 'Check Logs',\n        structuredSnippet3Header: 'Support',\n        structuredSnippet3Values: 'Contact Admin',\n        seedKeyword: 'Error',\n        cpc: 'Error',\n        generatedAt: new Date().toISOString()\n      }\n    });\n  }\n}\n\nconsole.log(`\\n✅ Final processing complete: ${finalItems.length} items`);\n\n// Log final summary\nfinalItems.forEach((item, index) => {\n  console.log(`Final Item ${index + 1}: ${item.json.keyword} - ${item.json.headline1}`);\n});\n\nreturn finalItems;"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1616,
+        384
+      ],
+      "id": "513d866f-7c2a-4981-8555-4e491b36383f",
+      "name": "Final Processing"
+    },
+    {
+      "parameters": {
+        "jsCode": "console.log('=== DATA PREPARATION FOR AD COPY ===');\n\nconst adCopyInputs = $input.all().map((item, index) => {\n  const kw = item.json;  // This defines the 'kw' variable\n  \n  console.log(`\\n--- Item ${index + 1} ---`);\n  console.log('Input keyword:', kw.keyword);\n  console.log('Input volume:', kw.volume);\n  console.log('Input intent:', kw.intent);\n  console.log('All input keys:', Object.keys(kw));\n  \n  // Validate we have the essential data\n  if (!kw.keyword || kw.keyword === 'Unknown' || !kw.keyword.trim()) {\n    console.error('⚠️ Missing or invalid keyword data');\n  }\n  \n  const preparedData = {\n    // Fields for OpenAI prompt (these need to be at the root level)\n    keyword: kw.keyword || 'Missing Keyword',\n    volume: kw.volume || 5000,\n    competition: kw.competition || 'Medium',\n    intent: kw.intent || 'Commercial',\n    estimatedCpc: kw.estimatedCpc || '3.50',\n    seedKeyword: kw.seedKeyword || kw.keyword || 'Missing Seed',\n    matchType: kw.matchType || 'Phrase',\n    priority: kw.priority || 'Medium',\n    semanticGroup: kw.semanticGroup || 'general',\n    \n    // Store complete original data for Final Processing\n    keywordData: {\n      keyword: kw.keyword || 'Missing Keyword',\n      volume: kw.volume || 5000,\n      competition: kw.competition || 'Medium',\n      intent: kw.intent || 'Commercial', \n      estimatedCpc: kw.estimatedCpc || '3.50',\n      seedKeyword: kw.seedKeyword || kw.keyword || 'Missing Seed',\n      priority: kw.priority || 'Medium',\n      category: kw.category || 'commercial',\n      cpcMin: kw.cpcMin || 2.00,\n      cpcMax: kw.cpcMax || 5.00,\n      matchType: kw.matchType || 'Phrase',\n      semanticGroup: kw.semanticGroup || 'general'\n    }\n  };\n  \n  console.log('✅ Prepared data:');\n  console.log('- Root keyword:', preparedData.keyword);\n  console.log('- Stored keywordData.keyword:', preparedData.keywordData.keyword);\n  console.log('- Match Type:', preparedData.matchType);\n  console.log('- Semantic Group:', preparedData.semanticGroup);\n  \n  return { json: preparedData };\n});\n\nconsole.log(`\\n✅ PREPARATION COMPLETE: ${adCopyInputs.length} items ready for ad copy generation`);\n\n// Log summary\nadCopyInputs.forEach((item, i) => {\n  console.log(`Item ${i + 1}: ${item.json.keyword} (stored: ${item.json.keywordData.keyword})`);\n});\n\nreturn adCopyInputs;"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1744,
+        128
+      ],
+      "id": "85041fc9-5fb0-438d-b9f5-40eb6270e2be",
+      "name": "Fixed Data Preparation Node"
+    },
+    {
+      "parameters": {
+        "jsCode": "console.log('=== DEBUGGING KEYWORD PROCESSING OUTPUT ===');\n\nconst items = $input.all();\nconsole.log('Total items from Keyword Processing:', items.length);\n\nitems.forEach((item, index) => {\n  console.log(`\\n--- Item ${index + 1} ---`);\n  console.log('Item keys:', Object.keys(item.json));\n  console.log('Full item:', JSON.stringify(item.json, null, 2));\n  \n  // Check critical fields\n  console.log('Critical field values:');\n  console.log('- keyword:', item.json.keyword);\n  console.log('- volume:', item.json.volume);\n  console.log('- intent:', item.json.intent);\n  console.log('- seedKeyword:', item.json.seedKeyword);\n  console.log('- estimatedCpc:', item.json.estimatedCpc);\n});\n\nconsole.log('\\n=== END DEBUG ===');\n\n// Pass through unchanged\nreturn items;"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1520,
+        128
+      ],
+      "id": "23c4b9ba-60ac-46d6-a778-ffbc7263f8ed",
+      "name": "Debug Node"
+    },
+    {
+      "parameters": {
+        "jsCode": "console.log('=== ROBUST KEYWORD PROCESSING ===');\n\nlet openAIContent = null;\nlet keywordData = [];\nconst items = [];\n\ntry {\n  const inputData = $input.first().json;\n  console.log('Processing keyword research response...');\n  \n  // Extract OpenAI response - handle LangChain format\n  if (inputData.message && inputData.message.content) {\n    openAIContent = inputData.message.content;\n  } else if (inputData.content) {\n    openAIContent = inputData.content;\n  } else if (inputData.choices && inputData.choices[0] && inputData.choices[0].message) {\n    openAIContent = inputData.choices[0].message.content;\n  } else {\n    throw new Error(`No OpenAI content found. Available keys: ${Object.keys(inputData)}`);\n  }\n  \n  if (!openAIContent) {\n    throw new Error('OpenAI content is empty');\n  }\n  \n  console.log('✅ OpenAI content found, length:', openAIContent.length);\n  \n  // Clean the response more aggressively\n  let cleanedContent = openAIContent.trim();\n  \n  // Remove markdown code blocks\n  cleanedContent = cleanedContent.replace(/```json\\s*/g, '');\n  cleanedContent = cleanedContent.replace(/```\\s*$/g, '');\n  cleanedContent = cleanedContent.trim();\n  \n  console.log('Cleaned content length:', cleanedContent.length);\n  console.log('First 200 chars:', cleanedContent.substring(0, 200));\n  console.log('Last 200 chars:', cleanedContent.substring(cleanedContent.length - 200));\n  \n  // Try to parse the JSON\n  let parsedResponse;\n  try {\n    parsedResponse = JSON.parse(cleanedContent);\n  } catch (parseError) {\n    console.log('❌ JSON parse failed:', parseError.message);\n    \n    // Try to repair the JSON by finding the last complete object\n    console.log('Attempting JSON repair...');\n    \n    // Find the start of keywordData array\n    const keywordDataStart = cleanedContent.indexOf('\"keywordData\":');\n    if (keywordDataStart === -1) {\n      throw new Error('Could not find keywordData in response');\n    }\n    \n    // Try to find the last complete object by counting brackets\n    let bracketCount = 0;\n    let lastCompleteObject = -1;\n    let inString = false;\n    let escapeNext = false;\n    \n    for (let i = keywordDataStart; i < cleanedContent.length; i++) {\n      const char = cleanedContent[i];\n      \n      if (escapeNext) {\n        escapeNext = false;\n        continue;\n      }\n      \n      if (char === '\\\\') {\n        escapeNext = true;\n        continue;\n      }\n      \n      if (char === '\"') {\n        inString = !inString;\n        continue;\n      }\n      \n      if (!inString) {\n        if (char === '{') {\n          bracketCount++;\n        } else if (char === '}') {\n          bracketCount--;\n          if (bracketCount === 1) { // We're back at the main object level\n            lastCompleteObject = i;\n          }\n        }\n      }\n    }\n    \n    if (lastCompleteObject > -1) {\n      // Truncate to last complete object and close the array and main object\n      const repairedContent = cleanedContent.substring(0, lastCompleteObject + 1) + '\\n  ]\\n}';\n      console.log('Attempting to parse repaired JSON...');\n      console.log('Repaired content length:', repairedContent.length);\n      \n      try {\n        parsedResponse = JSON.parse(repairedContent);\n        console.log('✅ Successfully repaired and parsed JSON');\n      } catch (repairError) {\n        console.log('❌ Repair failed:', repairError.message);\n        throw new Error('Could not repair malformed JSON response');\n      }\n    } else {\n      throw new Error('Could not find complete objects to repair JSON');\n    }\n  }\n  \n  keywordData = parsedResponse.keywordData || [];\n  console.log(`✅ Successfully extracted ${keywordData.length} keywords`);\n  \n} catch (error) {\n  console.error('❌ Error processing keywords:', error.message);\n  \n  // Create fallback keywords based on the seed keywords from form input\n  console.log('Creating fallback keywords...');\n  \n  // Try to get seed keywords from earlier in the workflow\n  try {\n    const formProcessor = $('Form Data Processor').first();\n    if (formProcessor && formProcessor.json.seedKeywords) {\n      const seedKeywords = formProcessor.json.seedKeywords;\n      console.log('Found seed keywords:', seedKeywords);\n      \n      // Create basic keyword objects for each seed keyword\n      seedKeywords.forEach((seed, index) => {\n        keywordData.push({\n          keyword: seed,\n          seedKeyword: seed,\n          searchVolume: Math.floor(Math.random() * 15000) + 5000,\n          competition: 'Medium',\n          cpcMin: 2.50,\n          cpcMax: 6.00,\n          estimatedCpc: Math.floor(Math.random() * 350) / 100 + 2.50,\n          intent: 'Commercial',\n          priority: 'Medium',\n          category: 'seed',\n          matchType: 'Phrase',\n          semanticGroup: 'general'\n        });\n      });\n      \n      console.log(`✅ Created ${keywordData.length} fallback keywords`);\n    }\n  } catch (fallbackError) {\n    console.log('❌ Could not create fallback keywords:', fallbackError.message);\n  }\n  \n  // If we still have no keywords, create a default one\n  if (keywordData.length === 0) {\n    keywordData.push({\n      keyword: 'artificial intelligence software',\n      seedKeyword: 'artificial intelligence',\n      searchVolume: 12000,\n      competition: 'Medium',\n      cpcMin: 3.00,\n      cpcMax: 6.00,\n      estimatedCpc: 4.50,\n      intent: 'Commercial',\n      priority: 'High',\n      category: 'seed',\n      matchType: 'Phrase',\n      semanticGroup: 'software'\n    });\n    console.log('Created default keyword');\n  }\n}\n\n// Process each keyword\nkeywordData.forEach((keyword, index) => {\n  try {\n    const processedKeyword = {\n      keyword: keyword.keyword || `Keyword ${index + 1}`,\n      seedKeyword: keyword.seedKeyword || 'Unknown',\n      volume: keyword.searchVolume || keyword.volume || Math.floor(Math.random() * 10000) + 1000,\n      competition: keyword.competition || 'Medium',\n      cpcMin: keyword.cpcMin || 2.00,\n      cpcMax: keyword.cpcMax || 5.00,\n      estimatedCpc: keyword.estimatedCpc || ((keyword.cpcMin || 2.00) + (keyword.cpcMax || 5.00)) / 2,\n      intent: keyword.intent || 'Commercial',\n      priority: keyword.priority || 'Medium',\n      category: keyword.category || 'commercial',\n      matchType: keyword.matchType || 'Phrase',\n      semanticGroup: keyword.semanticGroup || 'general',\n      source: 'enhanced_research',\n      timestamp: new Date().toISOString()\n    };\n    \n    console.log(`✅ Processed keyword ${index + 1}: ${processedKeyword.keyword}`);\n    items.push({ json: processedKeyword });\n    \n  } catch (keywordError) {\n    console.error(`❌ Error processing keyword ${index}:`, keywordError.message);\n  }\n});\n\nconsole.log(`✅ FINAL RESULT: ${items.length} keywords processed successfully`);\n\n// Log sample for verification\nif (items.length > 0) {\n  const sample = items[0].json;\n  console.log('Sample processed keyword:');\n  console.log(`- Keyword: ${sample.keyword}`);\n  console.log(`- Volume: ${sample.volume}`);\n  console.log(`- CPC: ${sample.estimatedCpc}`);\n  console.log(`- Intent: ${sample.intent}`);\n  console.log(`- Seed: ${sample.seedKeyword}`);\n  console.log(`- Match Type: ${sample.matchType}`);\n  console.log(`- Semantic Group: ${sample.semanticGroup}`);\n}\n\nreturn items;"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1312,
+        128
+      ],
+      "id": "94d82583-addb-46a7-8b04-c066c5c02196",
+      "name": "Robust Keyword Processing Node"
+    },
+    {
+      "parameters": {
+        "modelId": {
+          "__rl": true,
+          "value": "gpt-4.1-mini-2025-04-14",
+          "mode": "list",
+          "cachedResultName": "GPT-4.1-MINI-2025-04-14"
+        },
+        "messages": {
+          "values": [
+            {
+              "content": "=You are a Google Ads keyword research expert. Generate comprehensive keyword research that expands beyond the seed keywords provided.\n\nSEED KEYWORDS: {{ JSON.stringify($json.seedKeywords) }}\n\nBUSINESS CONTEXT:\n- Industry: {{ $json.businessContext.industry }}\n- Location: {{ $json.businessContext.location }}\n- Budget: {{ $json.businessContext.budget }}\n- Goal: {{ $json.businessContext.campaignGoal }}\n\nCRITICAL INSTRUCTIONS:\n- Generate EXACTLY 4 DIFFERENT and DIVERSE keyword variations for every seed keyword\n- DO NOT just repeat the seed keywords - create NEW variations that are related but different\n- Each variation should target a different search intent and user need\n- Expand the semantic meaning while staying relevant to the seed keyword\n\nKEYWORD EXPANSION STRATEGY:\nFor each seed keyword, create 4 variations following these patterns:\n\n1. **Commercial Intent**: Transform into buying/comparison keywords\n   - \"best [seed keyword]\", \"top [seed keyword] tools\", \"[seed keyword] software solutions\"\n   - \"compare [seed keyword]\", \"[seed keyword] platforms\", \"leading [seed keyword] services\"\n\n2. **Transactional Intent**: Create purchase-focused variations\n   - \"buy [seed keyword] software\", \"[seed keyword] pricing\", \"[seed keyword] cost\"\n   - \"[seed keyword] demo\", \"get [seed keyword]\", \"[seed keyword] subscription\"\n\n3. **Informational Intent**: Generate learning/educational keywords\n   - \"what is [seed keyword]\", \"how to use [seed keyword]\", \"[seed keyword] tutorial\"\n   - \"learn [seed keyword]\", \"[seed keyword] guide\", \"[seed keyword] explained\"\n\n4. **Long-tail Specific**: Create detailed, specific phrases\n   - \"[seed keyword] for [industry]\", \"[seed keyword] implementation\", \"advanced [seed keyword]\"\n   - \"[seed keyword] best practices\", \"[seed keyword] consulting\", \"[seed keyword] training\"\n\nEXPANSION EXAMPLES:\nIf seed keyword is \"artificial intelligence\":\n- Commercial: \"best AI software platforms\", \"top artificial intelligence tools\"  \n- Transactional: \"buy AI software\", \"artificial intelligence pricing\"\n- Informational: \"what is artificial intelligence\", \"AI implementation guide\"\n- Long-tail: \"artificial intelligence for healthcare\", \"enterprise AI solutions\"\n\nKEYWORD ATTRIBUTES:\n- **Match Type**: Exact (branded/specific), Phrase (2-3 words), Broad (general)\n- **Priority**: High (commercial value), Medium (potential), Low (informational)  \n- **Semantic Group**: \"pricing\", \"features\", \"comparison\", \"how-to\", \"tools\", \"software\", \"implementation\"\n- **Competition**: Low (0-33%), Medium (34-66%), High (67-100%)\n\nMANDATORY REQUIREMENTS:\n- Return ONLY valid JSON, no markdown, no extra text\n- Generate EXACTLY {{ $json.seedKeywords.length * 4 }} keywords total\n- Each seed keyword MUST produce 4 COMPLETELY DIFFERENT variations\n- NO keyword should be identical to the seed keyword\n- Use realistic search volumes (1000-50000)\n- Vary CPC based on competition: Low ($1-3), Medium ($3-6), High ($6-12)\n- Include ALL required attributes for every keyword\n\nReturn this EXACT format:\n{\n  \"keywordData\": [\n    {\n      \"keyword\": \"best AI software platforms\",\n      \"seedKeyword\": \"artificial intelligence\", \n      \"searchVolume\": 8500,\n      \"competition\": \"High\",\n      \"cpcMin\": 4.50,\n      \"cpcMax\": 8.20,\n      \"estimatedCpc\": 6.35,\n      \"intent\": \"Commercial\",\n      \"priority\": \"High\",\n      \"category\": \"commercial\",\n      \"matchType\": \"Phrase\",\n      \"semanticGroup\": \"software\"\n    },\n    {\n      \"keyword\": \"artificial intelligence pricing\",\n      \"seedKeyword\": \"artificial intelligence\",\n      \"searchVolume\": 3200,\n      \"competition\": \"Medium\",\n      \"cpcMin\": 3.20,\n      \"cpcMax\": 5.80,\n      \"estimatedCpc\": 4.50,\n      \"intent\": \"Transactional\",\n      \"priority\": \"High\",\n      \"category\": \"transactional\",\n      \"matchType\": \"Phrase\",\n      \"semanticGroup\": \"pricing\"\n    },\n    {\n      \"keyword\": \"what is artificial intelligence\",\n      \"seedKeyword\": \"artificial intelligence\",\n      \"searchVolume\": 12000,\n      \"competition\": \"Low\",\n      \"cpcMin\": 1.20,\n      \"cpcMax\": 2.80,\n      \"estimatedCpc\": 2.00,\n      \"intent\": \"Informational\",\n      \"priority\": \"Medium\",\n      \"category\": \"informational\",\n      \"matchType\": \"Phrase\",\n      \"semanticGroup\": \"how-to\"\n    },\n    {\n      \"keyword\": \"enterprise AI implementation solutions\",\n      \"seedKeyword\": \"artificial intelligence\",\n      \"searchVolume\": 1800,\n      \"competition\": \"High\",\n      \"cpcMin\": 6.00,\n      \"cpcMax\": 12.00,\n      \"estimatedCpc\": 9.00,\n      \"intent\": \"Commercial\",\n      \"priority\": \"High\",\n      \"category\": \"commercial\",\n      \"matchType\": \"Phrase\",\n      \"semanticGroup\": \"implementation\"\n    }\n  ]\n}\n\nCRITICAL ENFORCEMENT: \n- Each generated keyword MUST be different from the seed keyword\n- Create 4 unique variations per seed that expand the semantic scope\n- Focus on what users would actually search for related to each seed keyword\n- NO exceptions - must generate exactly 4 diverse keywords per seed keyword"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.openAi",
+      "typeVersion": 1.8,
+      "position": [
+        1648,
+        -128
+      ],
+      "id": "7d799793-d57d-47b4-99cf-972f2eff9b99",
+      "name": "Keyword Generation Prompt",
+      "credentials": {
+        "openAiApi": {
+          "id": "LNKZq3ht5F6HqF3h",
+          "name": "OpenAi account 3"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Google Ads Keyword Generator": {
+      "main": [
+        [
+          {
+            "node": "Form Data Processor",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Form Data Processor": {
+      "main": [
+        [
+          {
+            "node": "Keyword Generation Prompt",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Ad Copy Generation": {
+      "main": [
+        [
+          {
+            "node": "Final Processing",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Final Processing": {
+      "main": [
+        [
+          {
+            "node": "Google Sheets",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Fixed Data Preparation Node": {
+      "main": [
+        [
+          {
+            "node": "Ad Copy Generation",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Debug Node": {
+      "main": [
+        [
+          {
+            "node": "Fixed Data Preparation Node",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Robust Keyword Processing Node": {
+      "main": [
+        [
+          {
+            "node": "Debug Node",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Keyword Generation Prompt": {
+      "main": [
+        [
+          {
+            "node": "Robust Keyword Processing Node",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": true,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "966254f3-066b-4e4e-8d48-27d2a911562d",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "d6692eacc4d58eee7122a84a09d437eabbda07bfaca213a26dd5b094f7f9fb87"
+  },
+  "id": "Pafd5UwswbrSwTl4",
+  "tags": [
+    {
+      "createdAt": "2025-08-30T05:46:38.965Z",
+      "updatedAt": "2025-08-30T05:46:38.965Z",
+      "id": "qJoemg1sOiLbSVfs",
+      "name": "Ads Management"
+    }
+  ]
+}
