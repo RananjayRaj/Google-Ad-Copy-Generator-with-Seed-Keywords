@@ -1,5 +1,6 @@
-**Google Ads Keyword Research & Ad Copy Generator
-**Automated N8N workflow that transforms seed keywords into complete Google Ads campaigns with comprehensive ad copy and extensions.
+****Google Ads Keyword Research & Ad Copy Generator
+****Automated N8N workflow that transforms seed keywords into complete Google Ads campaigns with comprehensive ad copy and extensions.
+
 
 **Features**
 
