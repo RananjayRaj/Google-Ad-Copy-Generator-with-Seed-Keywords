@@ -24,3 +24,12 @@ Eliminates the manual, time-intensive process of keyword research and ad copy cr
 
 **Use Case**
 Perfect for digital marketers, PPC specialists, and agencies who need to rapidly generate comprehensive Google Ads campaigns from initial keyword concepts.
+
+## How to use
+1. Import JSON file into your n8n instance.
+2. Create the required credentials in n8n:
+   - Google Sheets OAuth2
+   - OpenAI (or your preferred LLM)
+3. In the n8n editor, open each node and attach the credentials you created.
+4. Replace placeholder values (sheet IDs, etc.) in node parameters.
+5. Activate the workflow.
