@@ -6,7 +6,7 @@
         "operation": "appendOrUpdate",
         "documentId": {
           "__rl": true,
-          "value": "18h3IHqnSvT4NzFrO226zgzBB32DHs64hVNNu2stmfdk",
+          "value": "REPLACE_GOOGLE_SHEET_ID",
           "mode": "id"
         },
         "sheetName": {
@@ -14,7 +14,7 @@
           "value": 1914351443,
           "mode": "list",
           "cachedResultName": "Copy of Sheet2",
-          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/18h3IHqnSvT4NzFrO226zgzBB32DHs64hVNNu2stmfdk/edit#gid=1914351443"
+          "cachedResultUrl": null
         },
         "columns": {
           "mappingMode": "autoMapInputData",
@@ -490,8 +490,8 @@
       "name": "Google Sheets",
       "credentials": {
         "googleSheetsOAuth2Api": {
-          "id": "fgDv40fNryDv9sN0",
-          "name": "Google Sheets account 2"
+          "id": "REPLACE_GOOGLE_SHEETS_CREDENTIAL_ID",
+          "name": "REPLACE_GOOGLE_SHEETS_CREDENTIAL_NAME"
         }
       }
     },
@@ -616,7 +616,7 @@
       ],
       "id": "92528453-b831-4082-b210-40e19b6baa6f",
       "name": "Google Ads Keyword Generator",
-      "webhookId": "cfdfcd66-76c3-4bcf-8610-6163fc1e0249"
+      "webhookId": null
     },
     {
       "parameters": {
@@ -660,8 +660,8 @@
       "name": "Ad Copy Generation",
       "credentials": {
         "openAiApi": {
-          "id": "VghV2OUNdwcjGUvn",
-          "name": "OpenAi account 2"
+          "id": "REPLACE_OPENAI_CREDENTIAL_ID",
+          "name": "REPLACE_OPENAI_CREDENTIAL_NAME"
         }
       }
     },
@@ -744,13 +744,12 @@
       "name": "Keyword Generation Prompt",
       "credentials": {
         "openAiApi": {
-          "id": "LNKZq3ht5F6HqF3h",
-          "name": "OpenAi account 3"
+          "id": "REPLACE_OPENAI_CREDENTIAL_ID",
+          "name": "REPLACE_OPENAI_CREDENTIAL_NAME"
         }
       }
     }
   ],
-  "pinData": {},
   "connections": {
     "Google Ads Keyword Generator": {
       "main": [
@@ -845,17 +844,9 @@
   "settings": {
     "executionOrder": "v1"
   },
-  "versionId": "966254f3-066b-4e4e-8d48-27d2a911562d",
-  "meta": {
-    "templateCredsSetupCompleted": true,
-    "instanceId": "d6692eacc4d58eee7122a84a09d437eabbda07bfaca213a26dd5b094f7f9fb87"
-  },
   "id": "Pafd5UwswbrSwTl4",
   "tags": [
     {
-      "createdAt": "2025-08-30T05:46:38.965Z",
-      "updatedAt": "2025-08-30T05:46:38.965Z",
-      "id": "qJoemg1sOiLbSVfs",
       "name": "Ads Management"
     }
   ]
